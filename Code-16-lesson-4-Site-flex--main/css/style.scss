@@ -1,0 +1,202 @@
+@import "D:/IT Frontend/Code 16 lesson(4 Site flex)/css/nullstyle.scss";
+
+body{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+.content {
+	flex: 1 1 auto;
+}
+.hi {
+	background-color: burlywood;
+	padding: 50px 0;
+}
+.conteiner {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+.hi__row {
+	display: flex;
+	justify-content: space-between;
+}
+.hi__body {
+	color: white;
+	padding-right: 30px;
+}
+.hi__title {
+	font-size: 60px;
+	margin-bottom: 38px;
+}
+.hi__list {
+}
+.hi__list li {
+	background: url(/img/icons/icon.png) 0 1px no-repeat;
+	font-size: 20px;
+	padding: 0 0 0 36px;
+	margin-bottom: 17px;
+}
+.hi_list:last-child{
+	margin: 0;
+}
+.hi__image {
+}
+
+
+.what {
+	padding: 50px 0;
+	display: flex;
+	justify-content: center;
+}
+.container {
+}
+.what__row {
+	display: flex;
+}
+.what__image {
+	flex: 0 0 430px;
+}
+.what__body {
+	flex: 1 1 auto;
+	padding-left: 38px;
+}
+.what__title {
+	font-size: 36px;
+	color: green;
+	line-height: 20px;
+	margin: 0 0 33px 0;
+}
+.what__text {
+	max-width: 700px;
+}
+
+.what__text p {
+	line-height: 20px;
+}
+
+.columns {
+	display: flex;
+	justify-content: center;
+	background-color: aqua;
+	padding: 50px 0 20px 0;
+}
+.container {
+}
+.columns__title {
+	text-align: center;
+	font-size: 30px;
+	padding: 0 0 20px 0;
+}
+.columns__row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.columns__column {
+	flex: 0 1 50%;
+	margin:0 -20px 20px 0;
+}
+.columns__item {
+}
+.item__row {
+	display: flex;
+}
+.item__image {
+	flex: 0 0 200px;
+}
+.item__body {
+	flex: 1 1 auto;
+	padding-left: 15px;
+}
+.item__title {
+	font-size: 15px;
+	text-align: center;
+	padding: 0 0 10px 0;
+}
+.item__text {
+	font-size: 10px;
+	line-height: 14px;
+	max-width: 100px;
+}
+
+.vertical {
+	display: flex;
+	justify-content: center;
+	padding: 50px 0;
+}
+.container {
+}
+.vertical__title {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	padding-bottom: 30px;
+}
+.verticl__body {
+	max-width: 990px;
+	margin: 0 auto;
+}
+.verical__row {
+	display: flex;
+	margin: 0 -22.5px;
+}
+.vertical__column {
+	flex: 0 1 33.333%;
+	padding: 0 22.5px;
+	display: flex
+}
+.verical__item {
+	background-color: cornflowerblue;
+	color: white;
+	border-radius: 10px;
+	border: 1px solid cornflowerblue;
+	display: flex;
+	flex-direction: column;
+}
+.vertical__subtitle {
+	text-align: center;
+	padding: 12px 0;
+	font-size: 20px;
+}
+.vertical__label {
+	text-align: center;
+	padding: 10px 0;
+	font-size: 20px;
+	background-color: white;
+	color: cornflowerblue;
+	padding: 15px 0;
+}
+.vertical__text {
+	padding:20px 0 0 0;
+	margin: 0 20px;
+	flex: 1 1 auto;
+}
+.vertical__btn {
+	display: block;
+	background-color: white;
+	margin: 20px 20px;
+	color:cornflowerblue;
+	text-align: center;
+	height: 30px;
+	border-radius: 10px;
+	line-height: 30px;
+}
+
+.footer {
+	background-color: bisque;
+}
+.container {
+}
+.footer__row {
+	display: flex;
+	height: 65px;
+	justify-content: center;
+	align-items: center;
+}
+.footer__text {
+	letter-spacing: 0.3px;
+}
